@@ -1,0 +1,13 @@
+# dsh-savvy-progress bundle layer: the plugin plus its default configuration.
+# Applied when this package is installed via `dsh plugin add dsh-savvy-progress`
+# or listed in a profile's dsh.profile.bundles.
+
+- insert:
+    - id: savvy-progress
+      name: dsh-savvy-progress
+      config:
+        tools: true
+        showCost: true
+        snapshotIntervalMs: 1000
+        maxFinishedAgents: 50
+        costRates: {}

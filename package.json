@@ -47,6 +47,9 @@
     "dsh": ">=0.2.0-rc.2"
   },
   "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "platform": "web"
     }
